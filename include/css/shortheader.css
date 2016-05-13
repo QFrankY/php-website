@@ -1,0 +1,85 @@
+body {
+	background-color: #F0F0F0;
+}
+
+header{
+	width:100%;
+	min-width:1080px;
+	height: 450px;
+	display: block;
+	background: #17161B url("resources/header-background.jpg") no-repeat center;
+	-webkit-box-shadow: 0 0 4px 2px #777777;
+	-moz-box-shadow: 0 0 4px 2px #777777;
+	box-shadow: 0 0 4px 2px #777777;
+	position:relative;
+	z-index:10;
+}
+
+#Featured {
+	width:730px;
+	color: #ffffff;
+	text-align:center;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#Featured h1{
+	margin-top:50px;
+	font-size: 40px;
+	font-weight:900;
+}
+
+#Featured h2{
+	margin-top: 15px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#Featured p {
+	margin-top:30px;
+	font-weight: 600;
+	font-size:20px;
+}
+
+#ProfilePic {
+	vertical-align:top;
+	margin-left:55px;
+	margin-top:70px;
+	display: inline-block;
+}
+
+#ProfilePic img{
+	height:280px;
+	width:210px;
+	-webkit-box-shadow: 2px 2px 10px 1px #000000;
+	-moz-box-shadow: 2px 2px 10px 1px #000000;
+	box-shadow: 2px 2px 10px 1px #000000;
+	border: 7px solid white;
+	margin: -50px 0 0 0;
+}
+
+#Content{
+	width:100%;
+	min-width:1080px;
+	display:block;
+	padding-bottom: 50px; 
+	position:relative;
+}
+
+#SideBar{
+	width: 300px;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:30px;
+	padding-top:30px;
+}
+
+#MainContent {
+	width: 746px;
+	padding-top: 40px;
+	display: inline-block;
+}
+
+footer{
+	display:block;
+}

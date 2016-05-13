@@ -1,0 +1,371 @@
+@keyframes fadeIn {
+    from {background-color: rgba(255,255,255,0); opacity: 0;}
+    to {background-color:rgba(255,255,255,0.90); opacity: 1;}
+}
+
+header{
+	width:100%;
+	min-width:1080px;
+	height: 600px;
+	display: block;
+	background: #17161B url("resources/header-background.jpg") no-repeat center;
+}
+
+.section {
+	padding-top: 50px;
+}
+
+#Featured {
+	width: 850px;
+	color: #ffffff;
+	text-align:center;
+	display: inline-block;
+	margin-left:40px;
+}
+
+#Featured h2{
+	margin-top: 55px;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+#Featured p {
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#Introduction {
+	text-align: left;
+	margin-left: 24px;
+}
+
+.button {
+	background-color:#FF6D00;
+	display:inline-block;
+	border-radius:7px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 35px;
+	margin-top: 42px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+
+.button:hover {
+	background-color: #FF8D00;
+}
+
+#Content h1{
+	font-weight:700;
+	padding-bottom: 10px;
+}
+
+#Content  h2{
+	font-weight:700;
+	font-size:24px;
+}
+
+#Content  h3{
+	font-weight:700;
+	font-size:24px;
+}
+
+#Content  h4{
+	font-weight:700;
+	font-size:20px;
+	margin-bottom:5px;
+}
+
+#Blog {
+	background-color: #FFFFFF;
+}
+
+#Blog p {
+	font-size: 16px;
+}
+
+#blogCategory, #projCategory {
+	display:block;
+	padding:20px 0;
+	text-align: center;
+}
+
+.tags {
+	margin: 0 2px;
+	color: #0072BB;
+} 
+ 
+.tags:hover {
+	cursor: pointer;
+	color: #FF6D00;
+} 
+
+#Blog h1{
+	border-bottom: 1px solid #BBBBBB;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#Blog h1 a {
+	color: #505050;
+}
+
+#Blog h1 a:hover {
+	color: #0072BB;
+}
+
+#Blog h2 {
+	margin-left: 5px;
+}
+
+#Blog h3 a{
+	text-decoration:none;
+	color: #FF6D00;
+}
+
+#Blog h3 a:hover{
+	text-decoration:underline;
+}
+
+#Blog #RecentPosts {
+	width: 700px;
+	display:inline-block;
+}
+
+#Blog #RecentLinks {
+	margin-left: 40px;
+	width: 330px;
+	height: 200px;
+
+	display:inline-block;
+	vertical-align: top;
+}
+
+#Blog .blogPost {
+	position: relative;
+	margin: 10px 0;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+	padding: 10px 20px;
+}
+
+#Blog .time {
+	font-size:16px;
+	color: #0072BB;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#Blog .info {
+	margin:5px 0;
+}
+
+#Blog .info span {
+	font-weight:700;
+}
+
+#Blog #RecentLinks h2 {
+	margin-bottom: 10px;
+
+}
+
+#Blog .postLink {
+	width: 160px;
+	height: 90px;
+	display: inline-block;
+	position: relative;
+	margin-right: 5px;
+}
+
+#Blog .postLink a {
+	color: #534E6C;
+	font-weight: 700;
+}
+
+#Blog .postLink img, #Blog .postLink iframe {
+	height: 100%;
+	width: 100%;
+}
+
+#Blog .viewPost p{
+	position: absolute;
+	width: 100%;
+	display: block;
+	top:35%;	
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#Project h1 a {
+	color: #505050;
+}
+
+#Project h1 a:hover {
+	color: #0072BB;
+}
+
+#Project #projectUpdates {
+	border-bottom: 1px solid #BBBBBB;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.projectPost {
+	background-color: #FFFFFF;
+	width: 250px;
+	height: 420px;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	vertical-align: top;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+}
+
+.projectPost .projTitle {
+	background-color: #534E6C;
+	color: #FFFFFF;
+	margin-bottom: 0px; 
+	padding: 10px 15px;
+}
+
+.projectPost .projPic {
+	width: 100%;
+	height: 149px; 
+}
+
+.projectPost h1 {
+	font-size: 20px;
+	padding: 5px 20px;
+}
+
+.projectPost .projInfo p {
+	padding: 2px 15px; 
+	font-size: 14px; 
+}
+
+.projInfo {
+	padding-bottom: 25px;
+}
+
+.projInfo span {
+	font-weight: 600;
+}
+
+.ribbon {
+	height: 75px;
+	position: absolute;
+	bottom: -8px;
+	right: -7px;
+	z-index: 15;
+}
+
+.viewPost, .viewUpdates {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	top:0;
+	right: 0;
+	z-index: 10;
+	opacity: 0;
+}
+
+.viewPost:hover, .viewUpdates:hover {
+	animation: fadeIn;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	cursor:pointer;
+}
+
+.viewUpdates .hoverText {
+	top:35%;	
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	font-weight: 700;
+	color: #534E6C;
+}
+
+.viewUpdates p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.latestUpdate {
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	font-size: 14px;
+	color: #0072BB;
+}
+
+#recentProj {
+	width: 280px;
+	height: 420px;
+	background-color: #FFFFFF;
+	margin-left: 12px;
+	display:inline-block;
+	vertical-align: top;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+}
+
+.projTitle {
+	font-size: 20px;
+	background-color: #534E6C;
+	color: #FFFFFF;
+	padding:10px 15px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#recentProj .projTitle {
+	background-color: #26619C;
+}
+
+#recentProj .recentUpdate h1{
+	color: #505050;
+	padding: 0 15px;
+	font-size: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#recentProj p {
+	padding:0 15px;
+	font-size: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.recentUpdate span {
+	font-weight: 600;
+	color: #505050;
+}
+
+.recentUpdate {
+	margin: 5px 0;
+	display:block;
+	color: #505050;
+}
+
+.recentUpdate:hover {
+	background-color: #87CEFA;
+	cursor: pointer;
+}

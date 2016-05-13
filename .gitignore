@@ -1,0 +1,9 @@
+config.php
+config
+freshprints/system
+.htaccess
+include/classes
+include/css/resources
+tinymce
+images
+*.png

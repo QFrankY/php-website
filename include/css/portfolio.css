@@ -1,0 +1,424 @@
+#Featured {
+	margin-left: 120px;
+}
+
+#Featured h1 {
+	margin-top:50px;
+	font-size: 36px;
+	font-weight: 700; 
+}
+
+#Featured img {
+	height: 28px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+#Featured a {
+	font-size: 20px;
+	font-weight: 600; 
+	display: inline-block;
+	margin: 30px;
+	border: solid 3px #FF7D00;;
+	padding: 10px 30px;
+	border-radius: 10px; 
+	color: #FFFFFF;
+}
+
+#Featured a:hover {
+	border-color: #FFFFFF;
+	cursor:pointer;
+}
+
+#SideBar {
+	width: 155px;
+	padding-top: 30px;
+}
+
+#SideBar h1{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#SideBar .tags {
+	font-size: 14px;
+	display: list-item;
+	margin-left: 15px;
+}
+
+#SideBar .tags:hover {
+	color: #0072BB;
+	cursor: pointer;
+	text-decoration: underline; 
+}
+
+#SideBar #viewall {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#SideBar #viewall:hover {
+	color: #FF6D00;
+	cursor: pointer;
+}
+
+#SideBar h2 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#SideBar #viewPrivate{
+	margin-bottom: 10px;
+}
+
+#SideBar input {
+	margin: 5px 0;
+}
+
+#SideBar #AccessGranted {
+	color:#009900;
+}
+
+#SideBar p {
+	font-size: 16px;
+}
+
+#MainContent{
+	width: 890px;
+	padding-top: 35px;
+}
+
+#Highlights {
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: solid 1px #CCCCCC;
+	opacity:0;
+}
+
+#latestProj {
+	width: 595px;
+	height: 450px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+}
+
+#latestProj .title {
+	height: 251px;
+	position: relative;
+	overflow: hidden;
+}
+
+.title img {
+	width: 100%;
+}
+
+#latestProj h1{
+	background-color: rgba(0,0,0,0.75);
+	padding:5px 40px 5px 25px;
+	font-size: 28px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom:0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#latestProj p {
+	font-size: 16px;
+}
+
+#latestProj .viewUpdates p {
+	font-size: 32px;
+}
+
+#latestProj .projDesc{
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+
+#recentProj {
+	width: 285px;
+	height: 450px;
+	background-color: #FFFFFF;
+	margin-left: 5px;
+	display:inline-block;
+	vertical-align: top;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+}
+
+.projTitle {
+	font-size: 20px;
+	background-color: #534E6C;
+	color: #FFFFFF;
+	padding:10px 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#recentProj .projTitle {
+	background-color: #26619C;
+}
+
+#recentProj .recentUpdate h1{
+	color: #505050;
+	padding: 0 15px;
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#recentProj p {
+	padding:0 15px;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.recentUpdate {
+	margin-bottom: 5px;
+}
+
+.recentUpdate:hover {
+	background-color: #87CEFA;
+	cursor: pointer;
+}
+
+.projectPost {
+	background-color: #FFFFFF;
+	width: 290px;
+	height: 435px;
+	margin-bottom: 25px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 0;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+	opacity:0;
+}
+
+.projectPost.middle {
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+.projInfo {
+	margin: 5px 15px;
+}
+
+.projectPost p{
+	font-size: 14px;
+}
+
+.projectPost .projDesc{
+	font-size: 16px;
+}
+
+.projDesc span {
+	font-weight: 600;
+}
+
+.projTags span {
+	font-weight: 600;
+}
+
+.ribbon {
+	height: 75px;
+	position: absolute;
+	bottom: -8px;
+	right: -7px;
+	z-index: 15;
+}
+
+.latestUpdate {
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	font-size: 16px;
+	color: #0072BB;
+}
+
+.projPic {
+	height: 160px;
+	width: 100%;
+}
+
+.projTags {
+	margin-top: 5px;
+}
+
+.projectPost .projTitle {
+	font-size: 20px;
+	padding:10px 15px;;
+	background-color: #534E6C;
+	color: #FFFFFF;
+}
+
+@keyframes fadeIn {
+    from {background-color: rgba(255,255,255,0); opacity: 0;}
+    to {background-color:rgba(255,255,255,0.8); opacity: 1;}
+}
+
+.viewUpdates {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	top:0;
+	z-index: 10;
+	opacity: 0;
+}
+
+.viewUpdates:hover {
+	animation: fadeIn;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	cursor:pointer;
+}
+
+.viewUpdates .hoverText {
+	top:35%;	
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	font-weight: 700;
+	color: #534E6C;
+}
+
+.viewUpdates p {
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+#updates {
+	width: 640px;
+	display:inline-block;
+}
+
+#infobar {
+	padding-left: 10px;
+	width: 240px;
+	display:inline-block;
+	vertical-align:top;
+	opacity: 0;
+}
+
+.card {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+}
+
+#projectSummary h1 {
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #534E6C;
+	padding: 5px 15px;
+}
+
+#projectSummary img {
+	width: 100%;
+	height: 132px;
+}
+
+#projectSummary p {
+	margin-left: 10px;
+	font-size: 14px;
+	color: #0072BB;
+	margin-bottom: 5px;
+}
+
+#tableOfContents h1 {
+	font-size: 20px;
+	color: #534E6C;
+	padding: 5px 0px;
+	margin: 0px 20px; 
+	padding-left: 15px;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+#tableOfContents a {
+	color: #777777;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#tableOfContents a:hover{
+	background-color: #87CEFA;
+}
+
+#tableOfContents h2 {
+	font-size: 16px;
+	padding: 0px 15px;
+}
+
+#tableOfContents p {
+	font-size: 14px;
+	padding: 0px 15px;
+}
+
+#tableOfContents {
+	padding: 15px 0px;
+}
+
+.updatePost {
+	display: block;
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	-moz-box-shadow: 1px 2px 5px 2px #DDDDDD;
+	 box-shadow: 1px 2px 5px 2px #DDDDDD;
+	padding: 10px 0px;
+}
+
+.updatePost h1{
+	font-size: 24px;
+	border-bottom: solid 1px #CCCCCC;
+	padding: 5px;
+	margin: 0px 15px
+}
+
+.updatePost p {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.updatePost img {
+	width: 100%;
+	height: 360px;
+}
+
+.updatePost iframe {
+	height: 360px;
+	width: 100%;
+}
+
+.updatePost .postDate{
+	font-size: 16px;
+	color: #0072BB;
+	margin: 0 10px;
+}
+
+.updatePost .projCont{
+	margin: 10px;
+}
+
